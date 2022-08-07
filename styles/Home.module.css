@@ -82,7 +82,7 @@
 
 .aboutout {
   background-color: #24272E;
-  height: 600px;
+  height: 800px;
 
 
 }
@@ -362,6 +362,10 @@
     width: 300%;
   }
 
+  .aboutout {
+    height: 500px;
+  }
+
 }
 
 @media only screen and (max-width:650px) {
@@ -407,6 +411,10 @@
 
   .contact {
     padding: 3rem;
+  }
+
+  .aboutout {
+    height: 500px;
   }
 }
 
@@ -460,6 +468,10 @@
     padding: 0;
   }
 
+  .aboutout {
+    height: 600px;
+  }
+
 
 
 }
@@ -472,11 +484,12 @@
     justify-content: center;
     padding-left: 0;
     padding-right: 0;
+
   }
 
   .welcome p {
 
-    width: 600%;
+    width: 75%;
     font-size: 15px;
 
   }
@@ -491,5 +504,14 @@
     font-size: 15px;
   }
 
+  .aboutout {
+    height: 700px;
+  }
+
+
+
+  .heroImage {
+    height: 650px;
+  }
 
 }
