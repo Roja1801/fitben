@@ -14,15 +14,13 @@ const Service = () => {
 
             <div className={styles.service}>
                 <motion.div className={styles.card}
-                    initial={{ x: -250 }}
-                    whileInView={{ x: 0 }}
+                    initial={{ x: 10, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
                     transition={{ ease: "easeOut", duration: 1 }}
                     viewport={{ once: true }}
-                    whileHover={{
-                        scale: [1, 1, 2],
-                        rotate: [0, 0, 0],
-                        borderRadius: ["20%", "50%", "20%"],
-                    }}
+
+                    whileHover={{ scale: 1.2 }}
+
                 >
                     <h3>Weekly Challenge</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus libero voluptatibus veritatis repudiandae, totam iusto amet nemo, maiores voluptatem quo aspernatur recusandae vero praesentium dolorem minima accusamus quisquam placeat! Possimus?</p>
@@ -32,15 +30,10 @@ const Service = () => {
                         onHoverEnd={e => { }}
                     >VIEW MORE</motion.h6>
                 </motion.div>
-                <motion.div className={styles.card}
-                    whileHover={{
-                        scale: [1, 1, 2],
-                        rotate: [0, 0, 0],
-                        borderRadius: ["20%", "50%", "20%"],
-
-                    }}
-                    initial={{ x: -250 }}
-                    whileInView={{ x: 0 }}
+                <motion.div className={styles.card_mid}
+                    whileHover={{ scale: 1.2 }}
+                    initial={{ x: 10, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
                     transition={{ ease: "easeOut", duration: 1 }}
                     viewport={{ once: true }}
                 >
@@ -53,13 +46,10 @@ const Service = () => {
                     >VIEW MORE</motion.h6>
                 </motion.div>
                 <motion.div className={styles.card}
-                    whileHover={{
-                        scale: [1, 1, 2],
-                        rotate: [0, 0, 0],
-                        borderRadius: ["20%", "50%", "20%"],
-                    }}
-                    initial={{ x: -250 }}
-                    whileInView={{ x: 0 }}
+                    whileHover={{ scale: 1.2 }}
+
+                    initial={{ x: 10, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
                     transition={{ ease: "easeOut", duration: 1 }}
                     viewport={{ once: true }}
                 >

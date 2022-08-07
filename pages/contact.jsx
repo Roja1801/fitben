@@ -20,9 +20,9 @@ const Contact = () => {
                 <motion.div className={styles.contactin}
                     initial={{ x: -250 }}
                     whileInView={{ x: 0 }}
-                    whileHover={{ scale: 1.5 }}
+                    whileHover={{ scale: 1.2 }}
 
-                    transition={{ ease: "easeOut", duration: 1 }}
+                    transition={{ duration: 1, type: 'spring' }}
                     viewport={{ once: true }}
                 >
 
