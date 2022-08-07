@@ -36,7 +36,7 @@
   width: 700px;
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #24272E;
+  color: white;
 }
 
 .welcome h4 {
@@ -434,9 +434,16 @@
     font-size: 30px;
   }
 
+  .welcome p {
+    width: 600%;
+  }
+
   .welcome h2 {
     font-size: 20px;
   }
+
+
+
 
   .serviceout h2 {
     font-size: 30px;
